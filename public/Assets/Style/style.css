@@ -1,0 +1,156 @@
+/* CSS for Blaek Stickland Portfolio */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  background-color: aliceblue;
+  border: 2px dotted black;
+  height: 600px;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.flex-item {
+  background-color: #e2dddd;
+  border: 2px solid black;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(207, 207, 207);
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?size=626&ext=jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.top-navigation {
+  border-bottom: 1px solid rgb(146, 142, 142);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#navBrand {
+  padding: 16px;
+  position: static;
+  float: left;
+}
+
+.bgGreen {
+  background-color:  #59aaa5;
+}
+
+.textGreen {
+  color:  #59aaa5;  
+}
+
+.portfolioLink {
+  position: absolute;
+  z-index: 10;
+  bottom: 4rem;
+
+}
+
+
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  border-top: 1rem solid #59aaa5 ;
+  background-color: #666666;
+}
+
+.footer span {
+  color: #c7c1c1;
+}
+
+nav {
+  background-color: #59aaa5 ;
+}
+
+ul li {
+  color: #c7c7c7;
+}
+
+ul a {
+  color: #c7c7c7;
+}
+
+.verticalLine { 
+  border-left: 2px solid #e9e8e8; 
+}
+
+.bottomBorder {
+  border-bottom: 2px solid rgb(146, 142, 142);
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-border {
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.card-img-dimensions {
+  height: 13rem;
+  width: 100%;
+}
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: rgb(51, 51, 51);
+    }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+      display: block;
+    }
+
+    .about-img {
+      width: 100%;
+      align-items: center;
+      background-color: #ffffff;
+    }
+    
+  }
+
+  @media screen and (max-width: 767px) {
+    .card-img-dimensions {
+      width:100%;
+      height: 22rem;
+    }
+  }
