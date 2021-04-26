@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "titleProject": "Work Day Scheduler",
+        "hrefDeployedProject": "https://blakestickland.github.io/work-day-scheduler/",
+        "srcProjectImg": "Assets/Images/work-day-calendar-screenshot.png",
+        "altProjectImg": "Work Day Scheduler screenshot",
+        "descriptionProject": "Get organised! Add your day's activities hour by hour, save them, and keep track of the day with color-coding.",
+        "hrefProjectRepo": "https://github.com/blakestickland/work-day-scheduler.git" 
+    },
+    {
+        "id": 2,
+        "titleProject": "Password Generator",
+        "hrefDeployedProject": "https://blakestickland.github.io/password-generator/",
+        "srcProjectImg": "Assets/Images/password-generaator-deployed-screenshot.png",
+        "altProjectImg": "Password Generator screenshot",
+        "descriptionProject": " Randomly generates a password from 8 to 128 characters long. You can choose the type of characters to include.",
+        "hrefProjectRepo": "https://github.com/blakestickland/password-generator.git"
+    },
+    {
+        "id": 3,
+        "titleProject": "Weather Dashboard",
+        "hrefDeployedProject": "https://blakestickland.github.io/weather-dashboard/",
+        "srcProjectImg": "Assets/Images/weather-dashboard-screenshot.png",
+        "altProjectImg": "Weather Dashboard screenshot",
+        "descriptionProject": "Discover the current weather details plus the 5-day forecast for any city you search. Your search will be saved and recalled when you return to the page.",
+        "hrefProjectRepo": "https://github.com/blakestickland/weather-dashboard.git" 
+    },
+    {
+        "id": 4,
+        "titleProject": "Eat-da-Burger",
+        "hrefDeployedProject": "https://mysterious-caverns-48540.herokuapp.com/",
+        "srcProjectImg": "Assets/Images/screen-shot-eat-da-burger-deployed-app.png",
+        "altProjectImg": "eat-da-burger screenshot",
+        "descriptionProject": " A web-based burger logger. Created with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Follows MVC design pattern; uses Node and MySQL to query and route data in the app and Handlebars to generate the HTML.",
+        "hrefProjectRepo": "https://github.com/blakestickland/burger.git" 
+    },
+    {
+        "id": 5,
+        "titleProject": "Well ♥ Me",
+        "hrefDeployedProject": "https://lkblt-project2.herokuapp.com/",
+        "srcProjectImg": "Assets/Images/screen-shot-well-me-deployed-app.png",
+        "altProjectImg": "Well ♥ Me app screenshot",
+        "descriptionProject": "An easy web-based way to track and reach fitness goals faster. Utilizes npm packages including chart.js, fitness-health-calculator, dotenv and passport and is deployed on Heroku with JawsDB. Follows MVC design pattern; uses Sequelize as an ORM to query and route data in the app and Handlebars to generate the HTML.",
+        "hrefProjectRepo": "https://github.com/blakestickland/project2.git" 
+    },
+    {
+        "id": 6,
+        "titleProject": "Hangry -- Recipe Search",
+        "hrefDeployedProject": "https://lindahlubi.github.io/Project-1/index.html",
+        "srcProjectImg": "Assets/Images/hangry-project-screenshot2.png",
+        "altProjectImg": "Hangry Recipe Search screenshot",
+        "descriptionProject": "Feeling Hangry? Search for the ideal recipe to satisfy your food desire! Feeling Hangry? Search for the ideal recipe to satisfy your food desire!",
+        "hrefProjectRepo": "https://github.com/blakestickland/hangry-recipe-search-project.git" 
+    }
+    
+]

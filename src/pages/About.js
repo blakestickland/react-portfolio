@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bio = () => {
+const About = () => {
     return (
         <div className="container bg-white p-4 wrapper" style={{maxWidth: "640px", margin: "4% auto"}}>
             <section className="bottomBorder pb-3">
@@ -51,4 +51,4 @@ const Bio = () => {
     );
 };
 
-export default Bio;
+export default About;
