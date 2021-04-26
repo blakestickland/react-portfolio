@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../components/Resume";
 
 const About = () => {
     return (
@@ -37,14 +38,7 @@ const About = () => {
                             keywords. I am excited to apply my skills as part of a dynamic,
                              quality-driven team to create exceptional sites on the web.
                     </p>
-                    <div className="resume-div">
-                        <a className="nav-link"
-                            href="../../../public/Assets/resume" 
-                            target="_blank">
-                            <i className="fa fa-file-pdf-o" style={{color: "red", fontSize:"34px"}}></i>
-                            <label style={{marginLeft: "1rem"}}>Resume</label>
-                        </a>
-                    </div>
+                    <Resume />
                 </span>
             </section>
         </div>
