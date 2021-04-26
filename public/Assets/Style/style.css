@@ -1,4 +1,4 @@
-/* CSS for Blaek Stickland Portfolio */
+/* CSS for Blake Stickland Portfolio */
 
 * {
   box-sizing: border-box;
@@ -10,8 +10,8 @@ html {
 
 .flex-container {
   display: flex;
-  background-color: aliceblue;
-  border: 2px dotted black;
+  background-color: rgb(29, 29, 29);
+  border: 2px dotted rgb(240, 236, 236);
   height: 600px;
   /* justify-content: space-around; */
   flex-wrap: wrap;
@@ -19,8 +19,8 @@ html {
   justify-content: space-around;
 }
 .flex-item {
-  background-color: #e2dddd;
-  border: 2px solid black;
+  background-color: #3a3a3a;
+  border: 2px solid rgb(252, 252, 252);
   width: 100px;
   margin: 20px;
   text-align: center;
@@ -29,17 +29,19 @@ html {
 }
 
 body {
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(77, 199, 250);
   height: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000;
 }
 
 .bg {
   /* The image used */
-  background-image: url("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?size=626&ext=jpg");
+  background-image: src("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?size=626&ext=jpg");
+  /* background-image: url("../Images/inflicted_@2X.png"); */
 
   /* Full height */
-  height: 100%;
+  /* height: 100%; */
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -47,12 +49,27 @@ body {
   background-size: cover;
 }
 
+/* TEST NEW LOOK PAGE */
+.diagonal-box-1 {
+  background-image: linear-gradient(45deg, #6303B1, #ff0099);
+  transform: skewY(61deg);
+  z-index: 3;
+}
+
+.content-1 {
+  max-width: 5em;
+  margin: 0 auto;
+  transform: skewY(-61deg);
+}
+
+/* TEST NEW LOOK PAGE */ 
+
 .top-navigation {
-  border-bottom: 1px solid rgb(146, 142, 142);
+  border-bottom: 1px solid #228af9;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Rubik', 'Roboto', sans-serif;
   font-weight: bold;
 }
 
@@ -63,11 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bgGreen {
-  background-color:  #59aaa5;
+  background-color:  #228af9;
 }
 
 .textGreen {
-  color:  #59aaa5;  
+  color:  #228af9;  
 }
 
 .portfolioLink {
@@ -77,30 +94,32 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
+.container-bottom {
+  margin-bottom:52px!important;
+}
 
 .footer {
   bottom: 0;
   width: 100%;
-  height: 90px;
-  border-top: 1rem solid #59aaa5 ;
-  background-color: #666666;
+  height: 70px;
+  border-top: 1px solid #228af9 ;
+  background-color: #f8f9fa;
 }
 
 .footer span {
-  color: #c7c1c1;
+  color: #9b9b9b;
 }
 
 nav {
-  background-color: #59aaa5 ;
+  background-color: #228af9 ;
 }
 
 ul li {
-  color: #c7c7c7;
+  color: #632f2f;
 }
 
 ul a {
-  color: #c7c7c7;
+  color: #fa0909;
 }
 
 .verticalLine { 

@@ -10,20 +10,31 @@ class Portfolio extends Component {
 
   render() {
       return (
-          <div className="container my-3 bg-white container-bottom">
-              <div className="row">
-                {this.state.projects.map(project => (
-                    <Project 
-                        hrefDeployedProject={project.hrefDeployedProject}
-                        srcProjectImg={project.srcProjectImg} 
-                        altProjectImg={project.altProjectImg}
-                        titleProject={project.titleProject}
-                        descriptionProject={project.descriptionProject}
-                        hrefProjectRepo={project.hrefProjectRepo} 
-                    />
-                ))};
-              </div>     
-          </div>
+        <main style={{margin: "4% auto", alignItems:"center"}}>
+      
+          <div className="container bg-white p-4">
+            
+              <section className="bottomBorder pb-3">
+                <h2 className="textGreen">Portfolio</h2>
+              </section>
+  
+              <div className="container my-3 bg-white pb-4 mb-4">
+                <div className="row">
+                  {this.state.projects.map(project => (
+                      <Project 
+                          key={project.id}
+                          hrefDeployedProject={project.hrefDeployedProject}
+                          srcProjectImg={project.srcProjectImg} 
+                          altProjectImg={project.altProjectImg}
+                          titleProject={project.titleProject}
+                          descriptionProject={project.descriptionProject}
+                          hrefProjectRepo={project.hrefProjectRepo} 
+                      />
+                  ))};
+                </div>     
+              </div>
+            </div>
+        </main>
       );
   };
 };

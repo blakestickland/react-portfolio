@@ -4,15 +4,15 @@ import './App.css';
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     <Router>
-      <div className="App">
-          <Navbar />
+      {/* <div className="App"> */}
+          <Header />
           <Wrapper>
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Wrapper>
           <Footer />
-      </div>
+      {/* </div> */}
     </Router>
   );
 }
