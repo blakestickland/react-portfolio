@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../components/Resume";
-import headshot from "../assets/images/blake_stickland_headshot.jpg";
+import headshot from "../../public/assets/images/blake_stickland_headshot.jpg";
 
 const About = () => {
     return (
