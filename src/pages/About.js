@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../components/Resume";
-import headshot from ;
+import myImage from "../assets/images/blake_stickland_headshot.jpg"
 
 const About = () => {
     return (
@@ -13,7 +13,7 @@ const About = () => {
             <section className="container-bottom">
                 <img    
                     className="float-left clearfix mr-3 my-3 about-img" 
-                    src="../../public/assets/images/blake_stickland_headshot.jpg"
+                    src={myImage}
                     alt="Web Developer Blake Stickland" 
                     max-width="300px" 
                     height="100%"
