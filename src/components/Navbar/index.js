@@ -1,4 +1,6 @@
 import React from "react";
+import GithubLogo from "../../assets/images/GitHub-Mark-120px-plus.png";
+import LinkedInLogo from "../../assets/images/LI-Logo.png";
 
 const Navbar = () => {
     return (
@@ -25,11 +27,11 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src="Assets/Images/GitHub-Mark-120px-plus.png" alt="GitHub Mark" height="22rem" /></a>
+                            <a className="nav-link" href="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></a>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="https://linkedin.com/in/blake-stickland-7bbb4a1ba" target="_blank"rel="noreferrer"><img src="Assets/Images/LI-Logo.png" alt="LinkedIn Logo" height="20rem" /></a>
+                            <a className="nav-link" href="https://linkedin.com/in/blake-stickland-7bbb4a1ba" target="_blank"rel="noreferrer"><img src={LinkedInLogo} alt="LinkedIn Logo" height="20rem" /></a>
                         </li>
                     </ul>
                 </div>

@@ -1,7 +1,9 @@
 import React from "react";
+import GithubLogo from "../../assets/images/GitHub-Mark-Light-120px-plus.png"
 
 const Project = (props) => {
     const {titleProject, hrefDeployedProject, srcProjectImg, altProjectImg,  descriptionProject, hrefProjectRepo, id} = props;
+    console.log(srcProjectImg);
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 mb-4" key={id}>
             <div className="card">
@@ -30,7 +32,8 @@ const Project = (props) => {
                 rel="noreferrer">
                     <h6>{titleProject}</h6>
                     <img 
-                        src="Assets/Images/GitHub-Mark-Light-120px-plus.png" 
+                        src={GithubLogo}
+                        // src="Assets/Images/GitHub-Mark-Light-120px-plus.png" 
                         alt="GitHub Mark"
                         height="22rem" 
                         style={{marginLeft:"3%"}}
