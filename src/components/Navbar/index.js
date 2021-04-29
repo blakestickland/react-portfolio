@@ -8,7 +8,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand navbar-light bg-light py-0 top-navigation fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header" >
-                        <h1><a className="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="/">Blake Stickland</a></h1>
+                        <h1><a className="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="/react-portfolio">Blake Stickland</a></h1>
                     </div>
 
                     <ul className="navbar-nav ml-auto"  role="navigation">
