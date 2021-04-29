@@ -6,7 +6,6 @@ class Resume extends Component {
           <div className="resume-div">
               <a className="nav-link"
                   href="assets/resume/blake-stickland-web-developer-resume.pdf"
-                //   href="Assets/resume/blake-stickland-web-developer-resume.pdf"
                   target="_blank"
                   download
                   >

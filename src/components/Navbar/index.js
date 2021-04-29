@@ -8,22 +8,22 @@ const Navbar = () => {
             <nav className="navbar navbar-expand navbar-light bg-light py-0 top-navigation fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header" >
-                        <h1><a className="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="/react-portfolio">Blake Stickland</a></h1>
+                        <h1><a className="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="/">Blake Stickland</a></h1>
                     </div>
 
                     <ul className="navbar-nav ml-auto"  role="navigation">
 
                         {/* The links of our navbar */}
                         <li className="nav-item active">
-                            <a className="nav-link" href="about">About<span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="/about">About<span className="sr-only">(current)</span></a>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="portfolio">Portfolio</a>
+                            <a className="nav-link" href="/portfolio">Portfolio</a>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="contact">Contact</a>
+                            <a className="nav-link" href="/contact">Contact</a>
                         </li>
 
                         <li className="nav-item verticalLine">
