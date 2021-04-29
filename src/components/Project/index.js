@@ -1,11 +1,8 @@
 import React from "react";
 import GithubLogo from "../../assets/images/GitHub-Mark-Light-120px-plus.png";
-// import imageMe from "../../assets/images/work-day-calendar-screenshot.png";
 
 const Project = (props) => {
     const {titleProject, hrefDeployedProject, srcProjectImg, altProjectImg,  descriptionProject, hrefProjectRepo, id} = props;
-    var myImage = srcProjectImg;
-    console.log(myImage.toString(), srcProjectImg.toString());
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 mb-4" key={id}>
             <div className="card">
@@ -17,7 +14,6 @@ const Project = (props) => {
                     <img 
                     className="card-img-top card-img-dimensions" 
                     src={`${process.env.PUBLIC_URL}/${srcProjectImg}`} 
-                    // src={require(`./${srcProjectImg}`).default}
                     alt={altProjectImg}
                     />
                 </a>
