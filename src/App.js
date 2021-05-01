@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
@@ -10,7 +10,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
     return (
-        <Router basename="/react-portfolio">
+        <Router basename={process.env.PUBLIC_URL + `/`}>
             <Header />
             <Wrapper>
                 <Switch>

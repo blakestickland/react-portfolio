@@ -1,6 +1,7 @@
 import React from "react";
 import GithubLogo from "../../assets/images/GitHub-Mark-120px-plus.png";
 import LinkedInLogo from "../../assets/images/LI-Logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -8,26 +9,26 @@ const Navbar = () => {
             <nav className="navbar navbar-expand navbar-light bg-light py-0 top-navigation fixed-top">
                 <div className="container-fluid">
                     <div className="navbar-header" >
-                        <h1><a className="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="/">Blake Stickland</a></h1>
+                        <h1><Link className="navbar-brand bgGreen text-white clearfix"  id="navBrand" to="/">Blake Stickland</Link></h1>
                     </div>
 
                     <ul className="navbar-nav ml-auto"  role="navigation">
 
                         {/* The links of our navbar */}
                         <li className="nav-item active">
-                            <a className="nav-link" href="/about">About<span className="sr-only">(current)</span></a>
+                            <Link className="nav-link" to="/about">About<span className="sr-only">(current)</span></Link>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="/portfolio">Portfolio</a>
+                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="/contact">Contact</a>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <a className="nav-link" href="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></a>
+                            <Link className="nav-link" to="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></Link>
                         </li>
 
                         <li className="nav-item verticalLine">
