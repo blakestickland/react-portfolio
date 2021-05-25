@@ -6,7 +6,7 @@ A React portfolio using responsive design to render on all devices, windows and 
 ![deployed portfolio](https://user-images.githubusercontent.com/73763708/116176011-bde62480-a754-11eb-8cc9-6ad84afcc644.png)
 
 ## Link to the Deployed Portfolio
-[Link to the deployed the Portfolio](https://blakestickland.github.io/portfolio/index.html)
+[Link to the deployed the Portfolio](https://blakestickland.github.io/react-portfolio)
 
 ## AIM:
 
