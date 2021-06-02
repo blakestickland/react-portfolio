@@ -23,10 +23,6 @@ const Navbar = () => {
                             <Link className="nav-link" to="/portfolio">Portfolio</Link>
                         </li>
 
-                        {/* <li className="nav-item verticalLine">
-                            <Link className="nav-link" to="/contact">Contact</Link>
-                        </li> */}
-
                         <li className="nav-item verticalLine">
                             <a className="nav-link" href="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></a>
                         </li>
