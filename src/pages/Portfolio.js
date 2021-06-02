@@ -32,7 +32,7 @@ class Portfolio extends Component {
                           descriptionProject={project.descriptionProject}
                           hrefProjectRepo={project.hrefProjectRepo} 
                       />
-                  ))};
+                  ))}
                 </div>     
               </div>
 
