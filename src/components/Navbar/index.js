@@ -23,16 +23,16 @@ const Navbar = () => {
                             <Link className="nav-link" to="/portfolio">Portfolio</Link>
                         </li>
 
-                        <li className="nav-item verticalLine">
+                        {/* <li className="nav-item verticalLine">
                             <Link className="nav-link" to="/contact">Contact</Link>
+                        </li> */}
+
+                        <li className="nav-item verticalLine">
+                            <a className="nav-link" href="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></a>
                         </li>
 
                         <li className="nav-item verticalLine">
-                            <Link className="nav-link" to="https://github.com/blakestickland" target="_blank"rel="noreferrer"><img src={GithubLogo} alt="GitHub Mark" height="22rem" /></Link>
-                        </li>
-
-                        <li className="nav-item verticalLine">
-                            <a className="nav-link" href="https://linkedin.com/in/blake-stickland-7bbb4a1ba" target="_blank"rel="noreferrer"><img src={LinkedInLogo} alt="LinkedIn Logo" height="20rem" /></a>
+                            <a className="nav-link" href="https://linkedin.com/in/blake-stickland" target="_blank"rel="noreferrer"><img src={LinkedInLogo} alt="LinkedIn Logo" height="20rem" /></a>
                         </li>
                     </ul>
                 </div>
