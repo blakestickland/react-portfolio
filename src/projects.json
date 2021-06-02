@@ -28,12 +28,12 @@
     },
     {
         "id": 4,
-        "titleProject": "Eat-da-Burger",
-        "hrefDeployedProject": "https://mysterious-caverns-48540.herokuapp.com/",
-        "srcProjectImg": "assets/images/screen-shot-eat-da-burger-deployed-app.png",
-        "altProjectImg": "eat-da-burger screenshot",
-        "descriptionProject": " A web-based burger logger. Created with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Follows MVC design pattern; uses Node and MySQL to query and route data in the app and Handlebars to generate the HTML.",
-        "hrefProjectRepo": "https://github.com/blakestickland/burger.git" 
+        "titleProject": "Rhythmic Machine",
+        "hrefDeployedProject": "https://dry-journey-82163.herokuapp.com/",
+        "srcProjectImg": "assets/images/screenshot-rhythmic-machine.png",
+        "altProjectImg": "Rhythmic Machine screenshot",
+        "descriptionProject": "A simple mobile-friendly drum machine that is capable of playing back in-built rhythmic patterns to inspire the user. Save and recall patterns. Or use it as a finger-tapping instrument!",
+        "hrefProjectRepo": "https://github.com/blakestickland/rhythmic-machine" 
     },
     {
         "id": 5,

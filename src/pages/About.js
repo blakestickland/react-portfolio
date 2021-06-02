@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../components/Resume";
-import myImage from "../assets/images/blake_stickland_headshot.jpg"
+import myImage from "../assets/images/blake-stickland-portfolio-headshot.jpg"
 
 const About = () => {
     return (
@@ -12,11 +12,11 @@ const About = () => {
             
             <section className="container-bottom">
                 <img    
-                    className="float-left clearfix mr-3 my-3 about-img" 
+                    className="float-left clearfix mr-3 my-3 about-img shadow" 
                     src={myImage}
                     alt="Web Developer Blake Stickland" 
                     max-width="300px" 
-                    height="100%"
+                    height="290px"
                 />
                 
                 <span className="ml-4 p-3">

@@ -8,6 +8,8 @@ class Portfolio extends Component {
     projects
   };
 
+  photo;
+
   render() {
       return (
         <main style={{margin: "4% auto", alignItems:"center"}}>
