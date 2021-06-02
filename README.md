@@ -3,7 +3,7 @@
 
 A React portfolio using responsive design to render on all devices, windows and screen sizes, great and small.
 
-![deployed portfolio](https://user-images.githubusercontent.com/73763708/116176011-bde62480-a754-11eb-8cc9-6ad84afcc644.png)
+![deployed portfolio](https://user-images.githubusercontent.com/73763708/120412596-277fd100-c39a-11eb-92bf-ec88cb69e9aa.png)
 
 ## Link to the Deployed Portfolio
 [Link to the deployed the Portfolio](https://blakestickland.github.io/react-portfolio)
@@ -39,4 +39,4 @@ Email: blakestickland@gmail.com
 
 ## Screenshots
 
-![Portfolio page](https://user-images.githubusercontent.com/73763708/116176026-c179ab80-a754-11eb-9fce-62b70ab5abe0.png)
+![Portfolio page](https://user-images.githubusercontent.com/73763708/120412632-3b2b3780-c39a-11eb-9371-5f793466d312.png)
